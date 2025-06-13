@@ -42,7 +42,7 @@ export default function Contact() {
               <FaLinkedin className="w-8 h-8" />
             </motion.a>
             <motion.a
-              href="mailto:your.email@example.com"
+              href="mailto:Desai0aryan@gmail.com"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
