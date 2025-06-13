@@ -1,0 +1,3 @@
+PS C:\Users\desai\Personal-Website-React> cd aryan-portfolio
+PS C:\Users\desai\Personal-Website-React\aryan-portfolio> npm run dev
+>> 
