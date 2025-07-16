@@ -50,6 +50,15 @@ export default function Resume() {
             <div className="bg-gray-900 p-6 rounded-lg h-full">
               <div className="space-y-6">
                 <div>
+                  <h4 className="text-lg font-semibold text-white">Kanban Board Web Application</h4>
+                  <p className="text-sm text-red-500">June 2025</p>
+                  <ul className="text-gray-400 text-sm mt-2 list-disc list-inside">
+                    <li>React web app</li>
+                    <li>Responsive design with drag-and-drop tasks</li>
+                    <li>Drag-and-drop tasks</li>
+                  </ul>
+                </div>
+                <div>
                   <h4 className="text-lg font-semibold text-white">Machine Learning Project</h4>
                   <p className="text-sm text-red-500">March 2025</p>
                   <ul className="text-gray-400 text-sm mt-2 list-disc list-inside">
@@ -90,9 +99,18 @@ export default function Resume() {
             <h3 className="text-2xl font-bold text-red-500 mb-6">Experiences</h3>
             <div className="bg-gray-900 p-6 rounded-lg h-full">
               <div className="space-y-6">
+                 <div>
+                  <h4 className="text-lg font-semibold text-white">CodePath Intro to Cybersecurity</h4>
+                  <p className="text-sm text-red-500">June 2025 - August 2025</p>
+                  <ul className="text-gray-400 text-sm mt-2 list-disc list-inside">
+                    <li>Foundations of cybersecurity, attack identification, and tool usage</li>
+                    <li>Hands-on projects covering Linux, ssh, RDP, PKI, malware, social engineering, and privacy</li>
+                    <li>Gained skills for threat analysis and career decisions</li>
+                  </ul>
+                </div>
                 <div>
                   <h4 className="text-lg font-semibold text-white">CodePath ICP Program</h4>
-                  <p className="text-sm text-red-500">June 2024 - August 2024</p>
+                  <p className="text-sm text-red-500">June 2025 - August 2025</p>
                   <ul className="text-gray-400 text-sm mt-2 list-disc list-inside">
                     <li>Technical interview preparation</li>
                     <li>Career development workshops</li>

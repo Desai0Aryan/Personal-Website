@@ -1,7 +1,7 @@
 export interface Skill {
   name: string;
   icon: string;
-  category: 'languages' | 'web' | 'tools' | 'cloud' | 'data' | 'database' | 'frameworks';
+  category: 'languages' | 'web' | 'tools' | 'cloud' | 'data' | 'database' | 'frameworks' | 'security';
 }
 
 export interface Project {

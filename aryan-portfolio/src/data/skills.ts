@@ -32,35 +32,45 @@ export const skills: Skill[] = [
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
     category: 'languages',
   },
-  
-  // Web Technologies
+  {
+    name: 'SQL',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+    category: 'languages',
+  },
   {
     name: 'HTML5',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
-    category: 'web',
+    category: 'languages',
   },
   {
     name: 'CSS3',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
-    category: 'web',
+    category: 'languages',
   },
+
+  // Frameworks & Libraries
   {
     name: 'React',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
-    category: 'web',
+    category: 'frameworks',
   },
   {
     name: 'Node.js',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
-    category: 'web',
+    category: 'frameworks',
+  },
+  {
+    name: 'Express',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
+    category: 'frameworks',
   },
   {
     name: 'Flask',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg',
-    category: 'web',
+    category: 'frameworks',
   },
-  
-  // Tools
+
+  // Tools & Platforms
   {
     name: 'Git',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
@@ -76,20 +86,35 @@ export const skills: Skill[] = [
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg',
     category: 'tools',
   },
-  
-  // Cloud & APIs
   {
-    name: 'AWS',
-    icon: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg',
-    category: 'cloud',
+    name: 'Linux',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg',
+    category: 'tools',
   },
+  {
+    name: 'Docker',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+    category: 'tools',
+  },
+  {
+    name: 'Kubernetes',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg',
+    category: 'tools',
+  },
+
+  // Cloud Platforms
   {
     name: 'Google Cloud',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg',
     category: 'cloud',
   },
-  
-  // Data Science & ML
+  {
+    name: 'AWS',
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg',
+    category: 'cloud',
+  },
+
+  // Data Science & Machine Learning
   {
     name: 'NumPy',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg',
@@ -101,35 +126,41 @@ export const skills: Skill[] = [
     category: 'data',
   },
   {
+    name: 'scikit-learn',
+    icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/scikitlearn.svg',
+    category: 'data',
+  },
+  {
     name: 'TensorFlow',
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg',
     category: 'data',
   },
+
+  // Cybersecurity (Basic)
   {
-    name: 'PyTorch',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg',
-    category: 'data',
-  },
-  
-  // Databases
-  {
-    name: 'MySQL',
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
-    category: 'database',
+    name: 'OWASP Top 10',
+    icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/owasp.svg',
+    category: 'security',
   },
   {
-    name: 'SQL Server',
-    icon: 'https://img.icons8.com/color/480/microsoft-sql-server.png',
-    category: 'database',
+    name: 'Wireshark',
+    icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/wireshark.svg',
+    category: 'security',
   },
-{
-  name: 'Vue.js',
-  icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg',
-  category: 'frameworks',
+  {
+  name: 'Postman',
+  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/postman.svg',
+  category: 'tools',
 },
 {
-  name: 'Tailwind CSS',
-  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tailwindcss.svg',
-  category: 'frameworks',
+  name: 'GitHub Actions',
+  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/githubactions.svg',
+  category: 'tools',
 },
+{
+  name: 'Metasploit',
+  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/metasploit.svg',
+  category: 'security',
+},
+
 ];
